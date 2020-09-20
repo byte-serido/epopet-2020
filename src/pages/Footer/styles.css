@@ -1,8 +1,12 @@
 .footer-root {
+    height: 200px;
+    width: 100%;
     background-color: #2F2E2E;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-p {
+.footer-root p {
     color: #FFFFFF;
 }

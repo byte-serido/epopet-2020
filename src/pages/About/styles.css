@@ -1,0 +1,10 @@
+.about-root {
+    background-image: url(../../assets/about-background.png);
+}
+
+.style-fonts {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
