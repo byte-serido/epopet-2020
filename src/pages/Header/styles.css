@@ -1,0 +1,14 @@
+.header-root {
+    height: auto;
+    text-align: center;
+    background-color: gba(255,255,255,0.8);
+}
+
+.banner-img img {
+    width: 850px;
+    height: 550px;
+}
+
+.header-root h2 {
+    padding-bottom: 150px;
+}
