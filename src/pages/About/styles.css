@@ -4,7 +4,17 @@
 
 .style-fonts {
     align-items: center;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     color: #FFFFFF;
+}
+
+.style-fonts h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.style-fonts p {
+    font-size: 20px;
+    padding: 20px 350px 20px 350px;
 }
