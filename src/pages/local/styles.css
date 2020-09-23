@@ -1,0 +1,50 @@
+
+.local-root {
+    padding: 3em 0;
+    height: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.style-font {
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: gray;
+}
+
+.style-font h1 {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.style-font p {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: gray;
+}
+
+.about-caico {
+    width: 640px;
+	margin: 0 auto;
+}
+
+.about-caico-text {
+    width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.video-caico {
+    width: 45%;
+    margin: 20px 10px;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px #000000;
+}

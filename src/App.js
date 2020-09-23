@@ -3,12 +3,14 @@ import './App.css'
 import Header from './pages/Header';
 import About from './pages/About';
 import Footer from './pages/Footer';
+import Local from './pages/local'
 
 function App() {
     return (
         <>
             <Header />
             <About />
+            <Local />
             <Footer />
         </>
     );
