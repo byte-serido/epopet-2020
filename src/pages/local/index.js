@@ -1,6 +1,6 @@
 import React from 'react';
 import '../local/styles.css';
-import '../local/reset.css'
+//import '../local/reset.css'
 
 function Local() {
     return (
