@@ -5,6 +5,10 @@
     background-color: rgb(255, 255, 255);
 }
 
+.about-caico .mais-foto p{
+    text-align: center;
+}
+
 .style-font {
     align-items: center;
     text-align: justify;
@@ -23,6 +27,11 @@
     padding: 10px;
     text-align: justify;
 }
+/*
+.mais-img {
+    text-align: center;
+}
+*/
 
 a {
     color: gray;
@@ -46,3 +55,4 @@ a {
 	transition: 400ms;
 	box-shadow: 10px 10px 10px #000000;
 }
+
