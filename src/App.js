@@ -3,7 +3,7 @@ import './App.css'
 import Header from './pages/Header';
 import About from './pages/About';
 import Footer from './pages/Footer';
-import Local from './pages/local'
+import Local from './pages/Local'
 
 function App() {
     return (
