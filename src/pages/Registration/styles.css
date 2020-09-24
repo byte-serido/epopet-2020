@@ -1,0 +1,33 @@
+.registration {
+    height: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+}
+
+.registration h1 {
+    padding: 10px;
+}
+
+.registration p {
+    padding: 5px;
+}
+.paragrafo-2{
+    margin-bottom: 30px;
+}
+
+.registration button{
+    text-decoration: none;
+    border:none;
+    background-color:rgb(71, 68, 68);
+    border-radius: 8px;
+    padding: 20px;
+    transition: 1s;
+    color: white;
+    cursor: pointer;
+}
+
+.registration button:hover{
+    transform: scale(1.1);
+    background-color:black;
+}
