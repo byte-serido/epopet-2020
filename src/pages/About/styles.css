@@ -27,3 +27,10 @@
    
     font-size: 20px;
 }
+
+@media (max-width: 720px){
+    .about-root .style-fonts{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

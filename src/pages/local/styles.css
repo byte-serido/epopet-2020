@@ -31,11 +31,6 @@
     padding: 10px;
     text-align: justify;
 }
-/*
-.mais-img {
-    text-align: center;
-}
-*/
 
 a {
     color: gray;
@@ -60,3 +55,28 @@ a {
 	box-shadow: 10px 10px 10px #000000;
 }
 
+@media (max-width: 720px){
+    
+    .about-caico .mais-foto p{
+        text-align: center;
+    }
+    .local-root .style-font .local-format .about-caico {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about-caico-text {
+        width: 70%;
+        vertical-align: top;
+        
+    }
+    .video-caico {
+        width: 70%;
+        margin: 25px 15px;
+        opacity: 1;
+        transition: 400ms;
+        box-shadow: 10px 10px 10px #000000;
+    }
+    
+
+}
