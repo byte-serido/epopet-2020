@@ -35,3 +35,9 @@
     transform: scale(1.1);
     background-color:black;
 }
+@media (max-width: 720px){
+    .registration-format {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
