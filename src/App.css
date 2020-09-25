@@ -8,6 +8,7 @@ body {
     background-color: #2F2E2E;
     background-image: url(./assets/background.png);
     background-position: top;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
