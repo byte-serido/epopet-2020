@@ -1,0 +1,44 @@
+.schedule-root{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.schedule-root h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.info-principal{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.548);
+    display: block;
+    border-width: medium;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.548);
+}
+/* Checkbox Hack */
+
+#toggle-1, #toggle-2, #toggle-3, #toggle-4, #toggle-5, #toggle-6, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4{
+    display:none;
+ }
+ 
+ label { 
+   -webkit-appearance: push-button;
+   -moz-appearance: button; 
+   display: inline-block;
+   cursor: pointer;
+   padding: 5px;
+ }
+ 
+ /* CSS padrão da div */
+ #mostra, #mostra-2, #mostra-3, #mostra-4{
+    display:none;
+ }
+ 
+ /* CSS quando o checkbox está marcado */
+ #toggle-1:checked ~ #mostra, #toggle-2:checked ~ #mostra-2, #toggle-3:checked ~ #mostra-3,  #toggle-4:checked ~ #mostra-4 {
+    display:block;
+ }
+
+.schedule-hora {
+    padding-left: 30px;
+}
