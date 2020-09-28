@@ -5,6 +5,7 @@ import About from './pages/About';
 import Footer from './pages/Footer';
 import Local from './pages/Local';
 import Registration from './pages/Registration';
+import Schedule from './pages/Schedule';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <About />
             <Registration />
             <Local />
+            <Schedule />
             <Footer />
         </>
     );
