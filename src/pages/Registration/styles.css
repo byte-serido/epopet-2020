@@ -1,7 +1,7 @@
 .registration {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 20px;
+    padding: 100px 0px 100px 0px;
 }
 
 .registration-format {
@@ -15,7 +15,9 @@
 
 .registration p {
     padding: 5px;
+    font-size: 20px;
 }
+
 .paragrafo-2{
     margin-bottom: 30px;
 }
@@ -35,6 +37,7 @@
     transform: scale(1.1);
     background-color:black;
 }
+
 @media (max-width: 720px){
     .registration-format {
         width: 90%;
