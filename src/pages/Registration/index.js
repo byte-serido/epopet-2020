@@ -6,7 +6,7 @@ function Registration() {
 
         <div className="registration">
             <div className="registration-format">
-                <h1>Participe do XVIII EPOPET</h1>
+                <h1>Participe do EPOPET MeetUp</h1>
                 <p>As inscrições são feitas através do Sistema Integrado de Gestão de Atividades Acadêmicas (SIGAA)da Universidade Federal do Rio Grande do Norte.</p>
                 <p className="paragrafo-2">Clique no botão abaixo e veja como se inscrever no evento.</p>
                 <div>

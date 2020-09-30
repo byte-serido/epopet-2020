@@ -11,7 +11,8 @@ function Schedule() {
             <input type="checkbox" id="toggle-1" />
             <div id="mostra">
                 <div>
-                    <div className="schedule-hora"> 19:00 - 19:40
+                    <div className="schedule-hora-plus"> 
+                        <span className="schedule-hora"> 19:00 - 19:40 </span>
                         <div className="schedule-tipo">Abertura EPOPET 2020
                             <div>
                                 <div className="schedule-titulo">Cerimônia de abertura e boas-vindas
@@ -26,7 +27,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora"> 19h50 - 20h50
+                    <div className="schedule-hora-plus">
+                    <span className="schedule-hora"> 19h50 - 20h50 </span>
                         <div className="schedule-tipo">Palestra I
                             <div>
                                 <div className="schedule-titulo">Histórico e evolução dos grupos PET's na UFRN
@@ -38,7 +40,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora">20h55 - 22h00
+                    <div className="schedule-hora-plus">
+                    <span className="schedule-hora">20h55 - 22h00</span>
                         <div className="schedule-tipo">Atividades interativas e brindes
                             <div>
                                 <div className="schedule-titulo">NÃO ESPECIFICADO NO CRONOGRAMA
@@ -59,7 +62,8 @@ function Schedule() {
             <input type="checkbox" id="toggle-2" />
             <div id="mostra-2">
                 <div>
-                    <div className="schedule-hora"> 15h00 - 16h30
+                    <div className="schedule-hora-plus">
+                        <span className="schedule-hora"> 15h00 - 16h30 </span>
                         <div className="schedule-tipo">Minicurso
                             <div>
                                 <div className="schedule-titulo">Educação financeira
@@ -72,7 +76,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora"> 15h00 - 16h30
+                    <div className="schedule-hora-plus">
+                        <span className="schedule-hora"> 15h00 - 16h30 </span>
                         <div className="schedule-tipo">Minicurso
                             <div>
                                 <div className="schedule-titulo">Ferramenta LaTeX
@@ -85,7 +90,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora"> 15h00 - 16h30
+                    <div className="schedule-hora-plus"> 
+                        <span className="schedule-hora"> 15h00 - 16h30 </span>
                         <div className="schedule-tipo">Minicurso
                             <div>
                                 <div className="schedule-titulo">Programação com Python
@@ -97,7 +103,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora"> 19h00 - 20h15
+                    <div className="schedule-hora-plus">
+                        <span className="schedule-hora"> 19h00 - 20h15 </span>
                         <div className="schedule-tipo">Palestra II
                             <div>
                                 <div className="schedule-titulo">Saúde mental e adoecimento estudantil
@@ -109,8 +116,9 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora"> Momento cultural
-                        <div className="schedule-tipo">NÃO ESPECIFICADO NO CRONOGRAMA
+                    <div className="schedule-hora-plus">
+                        <span className="schedule-hora"> 20h20 - 21h30 </span>
+                        <div className="schedule-tipo">Momento cultural
                             <div>
                                 <div className="schedule-titulo">NÃO ESPECIFICADO NO CRONOGRAMA
                                 <div className="schedule-palestrantes-resp">
@@ -130,7 +138,7 @@ function Schedule() {
             <input type="checkbox" id="toggle-3" />
             <div id="mostra-3">
                 <div>
-                <div className="schedule-hora"> 14h00 - 15h30
+                <div className="schedule-hora-plus"> <span className="schedule-hora"> 14h00 - 15h30 </span>
                         <div className="schedule-tipo">Minicurso
                             <div>
                                 <div className="schedule-titulo">Ferramenta LaTeX
@@ -143,7 +151,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora"> 14h00 - 15h30
+                    <div className="schedule-hora-plus">
+                    <span className="schedule-hora"> 14h00 - 15h30 </span>
                     <div className="schedule-tipo">Minicurso
                             <div>
                                 <div className="schedule-titulo">Programação com Python
@@ -155,7 +164,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora">16h00 - 17h30
+                    <div className="schedule-hora-plus"> 
+                        <span className="schedule-hora"> 16h00 - 17h30 </span>
                         <div className="schedule-tipo">Minicurso
                             <div>
                                 <div className="schedule-titulo">Fotografias
@@ -167,7 +177,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora">19h30 - 20h40
+                    <div className="schedule-hora-plus"> 
+                        <span className="schedule-hora"> 19h30 - 20h40 </span>
                         <div className="schedule-tipo">Palestra III
                             <div>
                                 <div className="schedule-titulo">Identidade Petiana
@@ -179,7 +190,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora">21h00 - 22h00
+                    <div className="schedule-hora-plus"> 
+                        <span className="schedule-hora"> 21h00 - 22h00 </span>
                         <div className="schedule-tipo">Momento cultural
                             <div>
                                 <div className="schedule-titulo">Momento alusivo aos 10 anos do PET CoUrSe
@@ -200,7 +212,8 @@ function Schedule() {
             <input type="checkbox" id="toggle-4" />
             <div id="mostra-4">
                 <div>
-                <div className="schedule-hora"> 19h00 - 20h15
+                <div className="schedule-hora-plus"> 
+                    <span className="schedule-hora"> 19h00 - 20h15</span>
                         <div className="schedule-tipo">Palestra IV
                             <div>
                                 <div className="schedule-titulo">NÃO ESPECIFICADO NO CRONOGRAMA
@@ -212,7 +225,8 @@ function Schedule() {
                         </div>
                     </div>
 
-                    <div className="schedule-hora"> 20h30 - 22h00
+                    <div className="schedule-hora-plus"> 
+                    <span className="schedule-hora"> 20h30 - 22h00 </span>
                     <div className="schedule-tipo">Cerimônia de encerramento e outros comunicados
                             <div>
                                 <div className="schedule-titulo">Eleição: nova sede

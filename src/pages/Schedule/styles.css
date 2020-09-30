@@ -1,12 +1,48 @@
-.schedule-root{
-    background-color: rgba(255, 255, 255, 0.5);
+@font-face {
+    font-family: segoe;
+    src: url('segoe-ui.otf');
+}
+.schedule-root {
+    font-family: segoe;
+    background-color: #ffff7e5d;
+
 }
 
-.schedule-root h1{
+.schedule-root h1 {
+    font-family: segoe;
     color: rgb(0, 0, 0);
     text-align: center;
+    line-height: 1.5;
 }
-.info-principal{
+
+.schedule-root #mostra .schedule-tipo,
+.schedule-root #mostra-2 .schedule-tipo,
+.schedule-root #mostra-3 .schedule-tipo,
+.schedule-root #mostra-4 .schedule-tipo {
+    font-family: segoe;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#mostra .schedule-hora-plus,
+#mostra-2 .schedule-hora-plus,
+#mostra-3 .schedule-hora-plus,
+#mostra-4 .schedule-hora-plus {
+    font-family: segoe;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.schedule-hora {
+    font-family: segoe;
+    text-align: center;
+}
+
+.info-principal {
+    margin: 0px auto;
+    text-align: center;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.548);
     display: block;
@@ -15,30 +51,61 @@
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.548);
 }
+
 /* Checkbox Hack */
 
-#toggle-1, #toggle-2, #toggle-3, #toggle-4, #toggle-5, #toggle-6, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4, #toggle-4{
-    display:none;
- }
- 
- label { 
-   -webkit-appearance: push-button;
-   -moz-appearance: button; 
-   display: inline-block;
-   cursor: pointer;
-   padding: 5px;
- }
- 
- /* CSS padrão da div */
- #mostra, #mostra-2, #mostra-3, #mostra-4{
-    display:none;
- }
- 
- /* CSS quando o checkbox está marcado */
- #toggle-1:checked ~ #mostra, #toggle-2:checked ~ #mostra-2, #toggle-3:checked ~ #mostra-3,  #toggle-4:checked ~ #mostra-4 {
-    display:block;
- }
+#toggle-1,
+#toggle-2,
+#toggle-3,
+#toggle-4 {
+    display: none;
+}
+
+label {
+    -webkit-appearance: push-button;
+    -moz-appearance: button;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* CSS padrão da div */
+#mostra,
+#mostra-2,
+#mostra-3,
+#mostra-4 {
+    display: none;
+}
+
+/* CSS quando o checkbox está marcado */
+#toggle-1:checked~#mostra,
+#toggle-2:checked~#mostra-2,
+#toggle-3:checked~#mostra-3,
+#toggle-4:checked~#mostra-4 {
+    display: block;
+}
+
+.schedule-hora-plus {
+    margin: 0 auto;
+    align-items: center;
+}
 
 .schedule-hora {
-    padding-left: 30px;
+    font-weight: bold;
+}
+
+.schedule-hora-plus:before {
+    content: "🟊";
+}
+
+.schedule-tipo:before {
+    content: "→ ";
+}
+
+.schedule-titulo {
+    align-items: center;
+}
+
+.schedule-titulo:before {
+    content: "• ";
 }
